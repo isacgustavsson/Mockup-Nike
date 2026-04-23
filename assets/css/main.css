@@ -20,10 +20,6 @@
   --font-size--3xl: 1.875rem;
   --font-size--4xl: 4rem;
 
-  --font-weight--bold {
-    font-weight: 400;
-  }
-
   --margin--sm: 12px;
   --margin--md: 16px;
   --margin--xl: 24px;
@@ -146,6 +142,20 @@ hr {
   color: var(--color-gray);
 }
 
+@media only screen and (max-width: 400px) {
+  :root {
+    --font-size--lg: 0.975rem;
+    --font-size--4xl: 1.75rem;
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  :root {
+    --font-size--lg: 1rem;
+    --font-size--4xl: 2.25rem;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .main-content-container {
     display: flex;
@@ -156,6 +166,10 @@ hr {
     margin-bottom: 10px;
   }
 
+  h1,
+  p {
+    word-break: break-word;
+  }
   .search-container {
     display: none;
   }
@@ -183,6 +197,11 @@ hr {
 }
 
 @media only screen and (min-width: 600px) {
+  :root {
+    --font-size--lg: 1.125rem;
+    --font-size--4xl: 2.5rem;
+  }
+
   .search-container {
     display: none;
   }
@@ -203,20 +222,6 @@ hr {
 }
 
 @media only screen and (max-width: 960px) {
-  :root {
-    --margin--xl: 24px;
-
-    /* --font-size--sm: 12px;
-    --font-size--md: 14px;
-    --font-size--lg: 16px;
-    --font-size--xl: 10px;
-    --font-size--2xl: 18px;
-    --font-size--3xl: 22px;
-    --font-size--4xl: 48px; */
-
-    --font-size--4xl: 48px;
-  }
-
   header {
     padding: 0 24px;
   }
