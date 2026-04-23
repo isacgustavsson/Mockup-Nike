@@ -6,7 +6,6 @@
   height: auto;
   width: 100%;
   aspect-ratio: 3/4;
-  background-image: var(--bg);
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -153,7 +152,6 @@
 
 .card--carousel--card {
   aspect-ratio: 4 / 3;
-  background-image: var(--bg);
   background-size: cover;
   background-position: center;
 }

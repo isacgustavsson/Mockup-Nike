@@ -51,6 +51,13 @@ footer {
   width: 100%;
 }
 
+.card,
+.card--carousel--card,
+.carousel--hero--image {
+  background-size: cover;
+  background-position: center;
+}
+
 p {
   margin: 0;
   padding: 0;
@@ -277,7 +284,6 @@ hr {
 
   .card--carousel--card {
     aspect-ratio: 1;
-    background-image: var(--bg);
     background-size: cover;
     background-position: center;
   }
