@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://db.onlinewebfonts.com/c/a8d7b985e4eb8c5d34f2302ffe83e917?family=Nike+Futura+ND"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/assets/css/nav.css" />
+    <link rel="stylesheet" href="/assets/css/body.css" />
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <title>Nike Mockup</title>
+  </head>
+  <body>
+    <nav>
+      <div class="header-wrapper">
+        <div class="brand-nav">
+          <img
+            class="jordan"
+            src="/assets/img/jordan.png"
+            alt="air-jordan-logo"
+          />
+
+          <div class="user-menu">
+            <a href="" class="link">Find a store</a>
+            <div class="divider">|</div>
+            <a href="" class="link">Help</a>
+            <div>|</div>
+            <a href="" class="link">Join Us</a>
+            <div class="divider">|</div>
+            <a href="" class="link">Sign in</a>
+          </div>
+        </div>
+        <header>
+          <a href="">
+            <img
+              class="logo"
+              src="/assets/img/swoosh.png"
+              alt="classic-swoosh-logo"
+            />
+          </a>
+
+          <div class="desktop-category">
+            <ul>
+              <li><a href="" class="link">New</a></li>
+              <li><a href="" class="link">Men</a></li>
+              <li><a href="" class="link">Women</a></li>
+              <li><a href="" class="link">Kids</a></li>
+              <li><a href="" class="link">Sport</a></li>
+              <li><a href="" class="link">NikeSKIMS</a></li>
+            </ul>
+          </div>
+
+          <div class="user-tools-container">
+            <div class="search-container">
+              <span class="search-icon">
+                <i
+                  class="fa-solid fa-magnifying-glass search-bar-magnifying-glass"
+                ></i>
+              </span>
+              <input type="search" placeholder="Search" class="search-field" />
+            </div>
+
+            <i class="fa-solid fa-magnifying-glass magnifying-glass"></i>
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-regular fa-user"></i>
+            <i class="fa-solid fa-basket-shopping"></i>
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </header>
+      </div>
+    </nav>
+
+    <div class="main-content-wrapper">
+      <div
+        class="card card--hero"
+        style="--bg: url(&quot;/assets/img/hero.jpg&quot;)"
+      >
+        <div class="card-content">
+          <p>Pegasus 42</p>
+          <h1>PURE HORSEPOWER</h1>
+          <p>Full-length, curved Air Zoom. Full send.</p>
+          <button><a href="" class="link">Shop</a></button>
+        </div>
+      </div>
+
+      <div class="main-content-container">
+        <div class="card" style="--bg: url(&quot;/assets/img/lime.jpg&quot;)">
+          <div class="card-content">
+            <p class="caption">Pegasus 42</p>
+            <h3>Pure Horsepower</h3>
+            <button>Shop</button>
+          </div>
+        </div>
+
+        <div class="card" style="--bg: url(&quot;/assets/img/fencer.jpg&quot;)">
+          <div class="card-content">
+            <p class="caption">Pegasus 42</p>
+            <h3>Pure Horsepower</h3>
+            <button>Shop</button>
+          </div>
+        </div>
+
+        <div class="card" style="--bg: url(&quot;/assets/img/girl.jpg&quot;)">
+          <div class="card-content">
+            <p class="caption">Pegasus 42</p>
+            <h3>Pure Horsepower</h3>
+            <button>Shop</button>
+          </div>
+        </div>
+
+        <div class="card" style="--bg: url(&quot;/assets/img/blue.jpg&quot;)">
+          <div class="card-content">
+            <p class="caption">Pegasus 42</p>
+            <h3>Pure Horsepower</h3>
+            <button>Shop</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="card carousel--hero">
+        <div
+          class="card carousel--hero--image"
+          style="--bg: url(&quot;/assets/img/Bebe/1.jpg&quot;)"
+        ></div>
+
+        <div
+          class="card carousel--hero--image"
+          style="--bg: url(&quot;/assets/img/Bebe/2.jpg&quot;); display: none"
+        ></div>
+
+        <div
+          class="card carousel--hero--image"
+          style="--bg: url(&quot;/assets/img/Bebe/3.jpg&quot;); display: none"
+        ></div>
+
+        <div
+          class="card carousel--hero--image"
+          style="--bg: url(&quot;/assets/img/Bebe/4.jpg&quot;); display: none"
+        ></div>
+
+        <div class="carousel-content">
+          <h1>Control the Distance.</h1>
+          <h1>Own the Moment.</h1>
+          <p>Full-length, curved Air Zoom. Full send.</p>
+          <button>Shop</button>
+        </div>
+
+        <div class="carousel--hero__controls">
+          <button class="arrow-btn" onclick="heroSlides(-1)">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <button class="arrow-btn" onclick="heroSlides(1)">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+
+        <div class="carousel__dots">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="carousel-header">
+        <h2>Shop Our Classics</h2>
+
+        <div class="carousel-header__controls">
+          <button class="arrow-btn" id="prevBtn">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <button class="arrow-btn" id="nextBtn">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="container">
+        <ul class="carousel--list">
+          <li class="carousel--list--item">
+            <div
+              class="card--carousel--card"
+              style="--bg: url(&quot;/assets/img/metcon.jpg&quot;)"
+            >
+              <div class="carousel--list--item__controls">
+                <button>Shop</button>
+              </div>
+            </div>
+          </li>
+
+          <li class="carousel--list--item">
+            <div
+              class="card--carousel--card"
+              style="--bg: url(&quot;/assets/img/lime.jpg&quot;)"
+            >
+              <div class="carousel--list--item__controls">
+                <button>Shop</button>
+              </div>
+            </div>
+          </li>
+
+          <li class="carousel--list--item">
+            <div
+              class="card--carousel--card"
+              style="--bg: url(&quot;/assets/img/blue.jpg&quot;)"
+            >
+              <div class="carousel--list--item__controls">
+                <button>Shop</button>
+              </div>
+            </div>
+          </li>
+
+          <li class="carousel--list--item">
+            <div
+              class="card--carousel--card"
+              style="--bg: url(&quot;/assets/img/metcon.jpg&quot;)"
+            >
+              <div class="carousel--list--item__controls">
+                <button>Shop</button>
+              </div>
+            </div>
+          </li>
+
+          <li class="carousel--list--item">
+            <div
+              class="card--carousel--card"
+              style="--bg: url(&quot;/assets/img/lime.jpg&quot;)"
+            >
+              <div class="carousel--list--item__controls">
+                <button>Shop</button>
+              </div>
+            </div>
+          </li>
+
+          <li class="carousel--list--item">
+            <div
+              class="card--carousel--card"
+              style="--bg: url(&quot;/assets/img/blue.jpg&quot;)"
+            >
+              <div class="carousel--list--item__controls">
+                <button>Shop</button>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="merch-menu">
+      <div class="merch-menu-wrapper">
+        <div class="merch-menu-column">
+          <h4 class="merch-menu-header">Shoes</h4>
+          <ul>
+            <a href="" class="link link--secondary">Black Running Shoes </a>
+            <a href="" class="link link--secondary"> White Running Shoes </a>
+            <a href="" class="link link--secondary"> Nike P-6000 </a>
+            <a href="" class="link link--secondary"> Nike Initiator Shoes</a>
+            <a href="" class="link link--secondary"> V2K Run Trainers</a>
+            <a href="" class="link link--secondary">Nike Shox</a>
+            <a href="" class="link link--secondary">Nike Waffle Trainers</a>
+            <a href="" class="link link--secondary">Nike Cortez</a>
+            <a href="" class="link link--secondary">Nike Vomero</a>
+            <a href="" class="link link--secondary">Black Trainers</a>
+            <a href="" class="link link--secondary">Nike Motiva Shoes</a>
+          </ul>
+        </div>
+
+        <div class="merch-menu-column">
+          <h4 class="merch-menu-header">Clothing</h4>
+          <ul>
+            <a href="" class="link link--secondary"> Yoga Trousers </a>
+            <a href="" class="link link--secondary"> Tech Fleece Joggers </a>
+            <a href="" class="link link--secondary"> Tech Fleece</a>
+          </ul>
+        </div>
+
+        <div class="merch-menu-column">
+          <h4 class="merch-menu-header">Kids'</h4>
+          <ul>
+            <a href="" class="link link--secondary"> Girls' Black Shoes </a>
+            <a href="" class="link link--secondary"> Kid's Black Shoes </a>
+            <a href="" class="link link--secondary"> Nike P-6000 </a>
+            <a href="" class="link link--secondary"> Nike P-6000 </a>
+          </ul>
+        </div>
+
+        <div class="merch-menu-column">
+          <h4 class="merch-menu-header">Featured</h4>
+          <ul>
+            <a href="" class="link link--secondary"> Football Club Teams </a>
+            <a href="" class="link link--secondary"> Football </a>
+            <a href="" class="link link--secondary"> Nike England</a>
+            <a href="" class="link link--secondary"> Nike Run Club </a>
+            <a href="" class="link link--secondary"> Nike Training Club </a>
+            <a href="" class="link link--secondary"> Nike By You Shoes </a>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-wrapper">
+        <hr />
+
+        <div class="footer-menu">
+          <div class="footer-menu-column">
+            <a href="" class="link link--header">Resources</a>
+            <ul>
+              <a href="" class="link link--tertiary">Gift Cards</a>
+              <a href="" class="link link--tertiary">Find a Store</a>
+              <a href="" class="link link--tertiary">Nike Journal</a>
+              <a href="" class="link link--tertiary">Become a Member</a>
+              <a href="" class="link link--tertiary">Feedback</a>
+              <a href="" class="link link--tertiary">Promo Codes</a>
+              <a href="" class="link link--tertiary">Running Shoe Finder</a>
+            </ul>
+          </div>
+
+          <div class="footer-menu-column">
+            <a href="" class="link link--header">Help</a>
+            <ul>
+              <a href="" class="link link--tertiary">Get Help</a>
+              <a href="" class="link link--tertiary">Order Status</a>
+              <a href="" class="link link--tertiary">Shipping and Delivery</a>
+              <a href="" class="link link--tertiary">Returns</a>
+              <a href="" class="link link--tertiary">Payment Options</a>
+              <a href="" class="link link--tertiary">Contact Us</a>
+              <a href="" class="link link--tertiary">Reviews</a>
+            </ul>
+          </div>
+
+          <div class="footer-menu-column">
+            <a href="" class="link link--header">Company</a>
+            <ul>
+              <a href="" class="link link--tertiary">About Nike</a>
+              <a href="" class="link link--tertiary">News</a>
+              <a href="" class="link link--tertiary">Careers</a>
+              <a href="" class="link link--tertiary">Investors</a>
+              <a href="" class="link link--tertiary">Sustainability</a>
+              <a href="" class="link link--tertiary">Accessibility</a>
+              <a href="" class="link link--tertiary">Purpose</a>
+              <a href="" class="link link--tertiary">Nike Coaching</a>
+            </ul>
+          </div>
+
+          <div class="footer-menu-column">
+            <a href="" class="link link--header">Community Discounts</a>
+            <ul>
+              <a href="" class="link link--tertiary">Student</a>
+              <a href="" class="link link--tertiary">Teacher</a>
+              <a href="" class="link link--tertiary">Medical Professional</a>
+            </ul>
+          </div>
+
+          <div class="footer-menu-column lang-col">
+            <a href="" class="link link--tertiary lang-link">
+              <i class="fa-solid fa-globe"></i>
+              <span>Country</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-list-wrapper">
+        <div class="footer-list">
+          <span class="link link--tertiary"
+            >© 2026 Nike, Inc. All rights reserved</span
+          >
+          <div class="footer-dropdown">
+            <a href="" class="link link--tertiary">Guides</a>
+            <div class="footer-dropdown-container">
+              <!-- <a href="" class="link link--tertiary">Nike Air Max</a> -->
+              <!-- <a href="" class="link link--tertiary">Nike FlyEase</a>
+            <a href="" class="link link--tertiary">Nike Pegasus</a>
+            <a href="" class="link link--tertiary">Nike React</a>
+            <a href="" class="link link--tetiary">Nike Vaporfly</a> -->
+            </div>
+          </div>
+          <a href="" class="link link--tertiary">Terms of Use</a>
+          <a href="" class="link link--tertiary">Terms of Sale</a>
+          <a href="" class="link link--tertiary">Company Details</a>
+          <a href="" class="link link--tertiary cookie-link"
+            >Privacy & Cookie Policy</a
+          >
+          <a href="" class="link link--tertiary cookie-link"
+            >Privacy & Cookie Setting</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="/script.js"></script>
+  </body>
+</html>

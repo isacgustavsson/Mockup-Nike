@@ -1,0 +1,189 @@
+.desktop-category,
+.user-tools-container,
+.logo {
+  flex-shrink: 0;
+}
+
+.brand-nav {
+  background: var(--color-white-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 48px;
+  height: 32px;
+}
+
+.user-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  width: 70px;
+  height: auto;
+}
+
+.jordan {
+  width: 24px;
+  height: auto;
+}
+
+.header-wrapper {
+  width: 100%;
+}
+
+header {
+  min-height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 48px;
+  background-color: var(--color-white);
+}
+
+.desktop-category {
+  display: flex;
+  justify-content: center;
+  width: calc(100% - 616px);
+  background-color: var(--color-white);
+}
+
+.desktop-category ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+.desktop-category ul li a {
+  font-size: 1.15rem;
+}
+
+.user-menu,
+.desktop-category {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.desktop-category a:hover {
+  text-decoration: underline !important;
+  text-decoration-thickness: 0.125rem;
+  text-underline-offset: 0.5rem;
+}
+
+.fa-solid,
+.fa-regular {
+  font-size: 1.25rem;
+}
+
+.user-tools-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.user-menu a,
+.desktop-category a,
+.user-tools-container a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.85rem;
+}
+
+.search-container {
+  width: 180px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 12px;
+  height: 36px;
+  border-radius: 999px;
+  background: var(--color-white-secondary);
+}
+
+.search-field {
+  border: none;
+  outline: none;
+  font-size: var(--font-size--md);
+  background: transparent;
+  width: 100%;
+}
+
+.search-field:hover {
+  cursor: pointer;
+}
+
+.footer-wrapper {
+  min-height: 300px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.footer-menu {
+  padding: 48px;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.footer-menu-column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+  gap: 12px;
+}
+
+/* TITEL (ersätter footer-header) */
+.footer-title {
+  display: inline-block;
+  margin-bottom: 12px;
+  font-weight: 400;
+  color: black;
+}
+
+/* STANDARD FOOTER LINKS */
+.footer-link {
+  display: block;
+  color: #707072;
+  margin-bottom: 8px;
+}
+
+/* LANG */
+.lang-col {
+  align-items: flex-end;
+}
+
+.lang-link {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.lang-link i {
+  font-size: 1rem;
+}
+
+.footer-list {
+  margin: 0 48px;
+  padding-bottom: 64px;
+  gap: 24px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-shrink: 1;
+}
+
+/* .footer-list {
+  .footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+} */
