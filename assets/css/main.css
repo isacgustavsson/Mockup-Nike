@@ -213,7 +213,7 @@ hr {
 @media only screen and (min-width: 600px) {
   :root {
     --font-size--lg: 1.125rem;
-    --font-size--4xl: 1.75rem;
+    --font-size--3xl: 1.75rem;
     --font-size--4xl: 2.5rem;
   }
 
@@ -223,9 +223,9 @@ hr {
 
   .carousel-header__controls {
     display: flex;
-    align-items: center;
     justify-content: space-between;
     gap: 20px;
+    margin-bottom: 20px;
   }
 
   .search-container {
@@ -322,7 +322,14 @@ hr {
 
 @media only screen and (min-width: 960px) {
   :root {
-    --margin--xl: 48px;
+    --font-size--xs: 0.875rem;
+    --font-size--sm: 0.975rem;
+    --font-size--md: 1rem;
+    --font-size--lg: 1.125rem;
+    --font-size--xl: 1.25rem;
+    --font-size--2xl: 1.5rem;
+    --font-size--3xl: 1.875rem;
+    --font-size--4xl: 4rem;
   }
 
   .card {
