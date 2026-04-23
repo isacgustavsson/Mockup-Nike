@@ -244,11 +244,6 @@
   margin: 48px 48px 0 48px;
 }
 
-.carousel-header__controls {
-  display: flex;
-  gap: 12px;
-}
-
 .section {
   width: 100%;
   display: flex;

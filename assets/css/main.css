@@ -77,6 +77,8 @@ h1 {
 
 h2 {
   font-size: var(--font-size--3xl);
+  font-weight: 500;
+  color: var(--color-black);
 }
 
 h3 {
@@ -145,6 +147,7 @@ hr {
 @media only screen and (max-width: 400px) {
   :root {
     --font-size--lg: 0.975rem;
+    --font-size--3xl: 1.25rem;
     --font-size--4xl: 1.75rem;
   }
 }
@@ -152,7 +155,12 @@ hr {
 @media only screen and (min-width: 400px) {
   :root {
     --font-size--lg: 1rem;
+    --font-size--3xl: 1.5rem;
     --font-size--4xl: 2.25rem;
+  }
+
+  .carousel-header__controls {
+    display: none;
   }
 }
 
@@ -167,9 +175,11 @@ hr {
   }
 
   h1,
-  p {
+  h2,
+  h3 p {
     word-break: break-word;
   }
+
   .search-container {
     display: none;
   }
@@ -194,12 +204,28 @@ hr {
     background-position: center;
     aspect-ratio: 4 / 6;
   }
+
+  .carousel-header__controls {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 600px) {
   :root {
     --font-size--lg: 1.125rem;
+    --font-size--4xl: 1.75rem;
     --font-size--4xl: 2.5rem;
+  }
+
+  .carousel-header {
+    margin-left: var(--margin--3xl);
+  }
+
+  .carousel-header__controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
   }
 
   .search-container {
